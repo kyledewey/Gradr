@@ -4,6 +4,8 @@ class UsersController < ApplicationController
   CLIENT_ID = ENV["GRADR_CLIENT_ID"]
   CLIENT_SECRET = ENV["GRADR_CLIENT_SECRET"]
   DOMAIN_NAME = "http://highermindedtypes.com"
+  AUTHORIZE_URL = "https://github.com/login/oauth/authorize"
+  ACCESS_TOKEN_URL = "https://github.com/login/oauth/access_token"
 
   def new
     @user = User.new
@@ -25,23 +27,45 @@ class UsersController < ApplicationController
   # No way to destroy a user.
   def destroy; end
 
-  def initialize_oauth_github_flow
-    # support passing of the state parameter
-    query_string = "?client_id=#{CLIENT_ID}&redirect_uri=#{DOMAIN_NAME + "/users/oauth_github"}"
-    redirect_to "https://github.com/login/oauth/authorize#{query_string}"
+  def oauth_github_flow
+    case params[:step]
+    when 1
+      oauth_github_flow_authorize
+    when 2
+      oauth_github_flow_access_token
+    else
+      raise "Unsupported OAuth step"
+    end
   end
 
-  def complete_oauth_github_flow
+  def oauth_github_flow_authorize
+    # support passing of the state parameter
+    query_string = "?client_id=#{CLIENT_ID}&redirect_uri=#{DOMAIN_NAME + oauth_flow_step_path(2)}"
+    redirect_to "#{AUTHORIZE_URL}#{query_string}"
+  end
+
+  def oauth_github_flow_access_token
     params = {
       code: params[:code],
       client_id: CLIENT_ID,
       client_secret: CLIENT_SECRET,
       redirect_uri: DOMAIN + "/works"
     }
-    response = RestClient.post "https://github.com/login/oauth/access_token", params, accept: "application/json"
+    response = RestClient.post ACCESS_TOKEN_URL, params, accept: "application/json"
+    resp_data = JSON.parse(response.to_str)
     binding.pry
   end
 
+  def oauth_flow_step_path(step)
+    case step
+    when 1
+      "/users/oauth_github/#{step}/1000"
+    when 2
+      "/users/oauth_github/#{step}/1000"
+    else
+      raise "Unsupported flow step."
+    end
+  end
 private
   def user_params
     params.require(:user).permit(
