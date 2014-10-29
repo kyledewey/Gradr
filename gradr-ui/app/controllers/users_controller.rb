@@ -7,7 +7,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
 
     binding.pry
-    
+
     if @user.save
         render text: "Success!"
     else
@@ -16,8 +16,8 @@ class UsersController < ApplicationController
     end
   end
 
-  def destroy
-  end
+  # No way to destroy a user.
+  def destroy; end
 
 private
   def user_params

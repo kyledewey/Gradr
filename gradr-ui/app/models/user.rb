@@ -8,4 +8,12 @@ class User < ActiveRecord::Base
                 :github_username,
                 :password,
                 :password_confirmation
+
+  def self.authenticate(email, password)
+    if user = User.find_by_email(email)
+      user.authenticate(password)
+    else
+      user.errors[:authentication_error] = "Invalid username/password combination."
+    end
+  end
 end

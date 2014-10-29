@@ -56,5 +56,5 @@ Rails.application.routes.draw do
   root 'application#index'
 
   resources :users, :course
-  resource :session, only: [:new, :destroy]
+  resource :sessions, only: [:new, :create, :destroy]
 end
