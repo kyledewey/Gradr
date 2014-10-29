@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141029043547) do
+ActiveRecord::Schema.define(version: 20141029060232) do
 
   create_table "assignments", force: true do |t|
     t.datetime "created_at"
@@ -53,6 +53,7 @@ ActiveRecord::Schema.define(version: 20141029043547) do
     t.string   "last_name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "access_token"
   end
 
 end

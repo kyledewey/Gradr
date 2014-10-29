@@ -57,4 +57,7 @@ Rails.application.routes.draw do
 
   resources :users, :course
   resource :sessions, only: [:new, :create, :destroy]
+  # Match the GitHub route for now.
+  get '/users/oauth_github/:id', to: 'users#initialize_oauth_github_flow'
+  get '/auth', to: 'users#complete_oauth_github_flow'
 end
