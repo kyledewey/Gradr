@@ -14,12 +14,11 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
 
-    binding.pry
-
     if @user.save
-        render text: "Success!"
+        flash[:message] = "Welcome!"
+        render root_page
     else
-      flash = @user.errors
+      @user.errors.each { |k, v| flash[k] = "#{k}:#{v}" }
       redirect_to new_user_path
     end
   end
@@ -27,6 +26,9 @@ class UsersController < ApplicationController
   # No way to destroy a user.
   def destroy; end
 
+  # How to obtain an access key from GitHub.
+  # TODO: Need to thread the state nonce through the API requests.
+  # Better error handling
   def oauth_github_flow
     case params[:step]
     when 1
@@ -51,9 +53,14 @@ class UsersController < ApplicationController
       client_secret: CLIENT_SECRET,
       redirect_uri: DOMAIN + "/works"
     }
-    response = RestClient.post ACCESS_TOKEN_URL, params, accept: "application/json"
+    response = RestClient.post(ACCESS_TOKEN_URL, params, accept: "application/json")
     resp_data = JSON.parse(response.to_str)
-    binding.pry
+
+    # this is currently not secure in the slightest
+    # need to check scopes
+    user = User.find(params) or raise "Invalid User"
+    user.access_token = resp_data["access_token"]
+    user.save!
   end
 
   def oauth_flow_step_path(step)

@@ -34,13 +34,13 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'rest-client'
 
-group :development do
+group :development, :test do
+  gem 'pry'
+  gem 'pry-byebug'
   gem 'better_errors'
 end
 
 group :test do
-  gem 'pry'
-  gem 'pry-byebug'
   gem 'minitest'
 end
 

@@ -9,11 +9,15 @@ class User < ActiveRecord::Base
                 :password,
                 :password_confirmation
 
-  def self.authenticate(email, password)
-    if user = User.find_by_email(email)
-      user.authenticate(password)
-    else
-      user.errors[:authentication_error] = "Invalid username/password combination."
-    end
+  # def self.authenticate(email, password)
+  #   if user = User.find_by_email(email)
+  #     user.authenticate(password)
+  #   else
+  #     user.errors[:authentication_error] = "Invalid username/password combination."
+  #   end
+  # end
+
+  def github_linked?
+    User.access_token.non_blank?
   end
 end
