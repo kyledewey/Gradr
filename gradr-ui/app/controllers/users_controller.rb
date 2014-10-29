@@ -13,10 +13,10 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
-
+    binding.pry
     if @user.save
         flash[:message] = "Welcome!"
-        render root_page
+        redirect_to root_path
     else
       @user.errors.each { |k, v| flash[k] = "#{k}:#{v}" }
       redirect_to new_user_path
@@ -78,8 +78,9 @@ private
     params.require(:user).permit(
       :first_name,
       :last_name,
-      :password_digest,
-      :github_username
+      :email,
+      :password,
+      :password_confirmation,
     )
   end
 end
