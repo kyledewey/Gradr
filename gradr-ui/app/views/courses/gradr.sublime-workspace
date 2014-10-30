@@ -1,0 +1,1297 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"b",
+				"bcolors"
+			],
+			[
+				"exp",
+				"expand_synonyms"
+			],
+			[
+				"lemma",
+				"lemma_names"
+			],
+			[
+				"expand",
+				"expand_synonyms"
+			],
+			[
+				"expa",
+				"expanded_synonyms"
+			],
+			[
+				"ex",
+				"expanded_synonyms"
+			],
+			[
+				"senten",
+				"sentence_number"
+			],
+			[
+				"num",
+				"num_Sent"
+			],
+			[
+				"rid",
+				"rid_stem_words"
+			],
+			[
+				"punc",
+				"punct_words"
+			],
+			[
+				"word",
+				"word_tokens"
+			],
+			[
+				"sent",
+				"sent_tokens"
+			],
+			[
+				"we",
+				"we"
+			],
+			[
+				"who",
+				"who"
+			],
+			[
+				"have",
+				"have"
+			],
+			[
+				"sentenc",
+				"sentences"
+			],
+			[
+				"sente",
+				"sentences"
+			],
+			[
+				"tfi",
+				"tfidf_matrix"
+			],
+			[
+				"tfid",
+				"tfidf_Vectorizer"
+			],
+			[
+				"sen",
+				"sentence_number"
+			],
+			[
+				"words",
+				"words"
+			],
+			[
+				"marg",
+				"marginwidth	Attr"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"port",
+				"portfolio_t"
+			],
+			[
+				"serv",
+				"services_t"
+			],
+			[
+				"scroll",
+				"scrollBottom"
+			],
+			[
+				"of",
+				"offset"
+			],
+			[
+				"scrollt",
+				"scrolltop"
+			],
+			[
+				"services",
+				"servicesFade"
+			],
+			[
+				"docu",
+				"document"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"change",
+				"changeHeaderOnResponsive"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"sc",
+				"scrollTop"
+			],
+			[
+				"img-",
+				"img-responsive"
+			],
+			[
+				"mini",
+				"min-height"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"out",
+				"outline-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"detail",
+				"detailItem"
+			],
+			[
+				"deta",
+				"detailItem"
+			],
+			[
+				"res",
+				"responseData"
+			],
+			[
+				"response",
+				"responseText"
+			],
+			[
+				"conn",
+				"connection"
+			],
+			[
+				"que",
+				"queryString"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views/users/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 1643,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1839,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views/assignments/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 698,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new.html.erb",
+			"settings":
+			{
+				"buffer_size": 1077,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/assets/stylesheets/application.css.scss",
+			"settings":
+			{
+				"buffer_size": 401,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"brackethighlighter",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"bracket high",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"",
+				"BracketHighlighter: Enable Debug Mode"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"div",
+				"Package Control: Discover Packages"
+			],
+			[
+				"brack",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"highligher",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"doc",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"alig",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"alignment",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"alignmen",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"save",
+				"Project: Save As"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/assets",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/assets/javascripts",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/assets/stylesheets",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/controllers",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views/application",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views/assignments",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views/courses",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views/layouts",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views/sessions",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views/users",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/config",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/config/initializers"
+	],
+	"file_history":
+	[
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/controllers/assignments_controller.rb",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/controllers/courses_controller.rb",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/assets/javascripts/bootstrap-datepicker.js",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views/layouts/application.html.erb",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/config/initializers/assets.rb",
+		"/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/config/routes.rb",
+		"/Users/dspoka/Desktop/Fact Checking/scripto/textnltk.py",
+		"/Library/Python/2.7/site-packages/nltk/model/ngram.py",
+		"/Users/dspoka/Desktop/Fact Checking/scripto/playingWithPython.py",
+		"/Users/dspoka/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/dspoka/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/dspoka/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/dspoka/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/dspoka/Desktop/Fact Checking/playingWithPython.py",
+		"/Library/Python/2.7/site-packages/ngram.py",
+		"/Library/Python/2.7/site-packages/nltk/tokenize/punkt.py",
+		"/Library/Python/2.7/site-packages/numpy/core/include/numpy/noprefix.h",
+		"/Users/dspoka/Desktop/python-NLTK-cluster-example/cluster_example.py",
+		"/Users/dspoka/playingWithPython.py",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/site/index.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/assets/stylesheets/agency.scss",
+		"/Users/dspoka/Code Projects/opuslogica.com/config/initializers/assets.rb",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/assets/stylesheets/application.css",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/layouts/site.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/tmp/cache/assets/development/sprockets/a14999384afe7dc2bc04dd3dbd9eab1c",
+		"/Users/dspoka/Code Projects/opuslogica.com/db/test.sqlite3",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/layouts/_footer.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/layouts/_contact.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/layouts/_team.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/layouts/_about.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/layouts/_partners.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/layouts/_services.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/layouts/_header.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/assets/stylesheets/agency.css",
+		"/Users/dspoka/Downloads/similar.py",
+		"/Users/dspoka/Desktop/Qaqawq",
+		"/Users/dspoka/Desktop/IOSLinkedInAPI-master/Example/IOSLinkedInAPI-Podexample/IOSLinkedInAPI-Podexample/IOSLinkedInAPI-Podexample.xcodeproj/project.pbxproj",
+		"/Users/dspoka/Desktop/IOSLinkedInAPI-master/Example/IOSLinkedInAPI-Podexample/IOSLinkedInAPI-Podexample/IOSLinkedInAPI-Podexample/LIAViewController.h",
+		"/Users/dspoka/Desktop/IOSLinkedInAPI-master/Example/IOSLinkedInAPI-Podexample/IOSLinkedInAPI-Podexample/Pods/IOSLinkedInAPI/README.md",
+		"/Users/dspoka/Desktop/linkedin.html",
+		"/Users/dspoka/pythonTest.py",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/assets/javascripts/contact_me.js",
+		"/Users/dspoka/Code Projects/opuslogica.com/config/initializers/filter_parameter_logging.rb",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/hidden HTML/_fat_footer.html.erb",
+		"/Users/dspoka/Desktop/opus_home_workingfrom.txt",
+		"/Users/dspoka/Desktop/expanding-photo-stack/js/index.js",
+		"/Users/dspoka/Desktop/Project Bonnobo/code_networkx.py",
+		"/Users/dspoka/Desktop/Project Bonnobo/pythonnltk.py",
+		"/Users/dspoka/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/hidden HTML/_page_header_image.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/Gemfile",
+		"/Users/dspoka/Code Projects/opuslogica.com/README.rdoc",
+		"/Users/dspoka/Code Projects/opuslogica.com/Rakefile",
+		"/Users/dspoka/Code Projects/CodePen/kudos-please/config.rb",
+		"/Users/dspoka/Code Projects/CodePen/kudos-please/css/style.css",
+		"/Users/dspoka/Code Projects/CodePen/kudos-please/README.txt",
+		"/Users/dspoka/Code Projects/CodePen/kudos-please/license.txt",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/assets/javascripts/cbpAnimatedHeader.min.js",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/assets/stylesheets/bootstrap.css",
+		"/Users/dspoka/Desktop/agency/css/agency.css",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/assets/stylesheets/mobile.css.scss",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/assets/stylesheets/site.css.scss",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/site/why.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/site/how.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/tmp/cache/assets/development/sprockets/fad4c5b7549dd3c7481749da4aae94b5",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/site/who.html.erb",
+		"/Users/dspoka/Desktop/agency/img/team/david.jpg",
+		"/Users/dspoka/Desktop/agency/img/team/bfox.jpg",
+		"/Users/dspoka/Desktop/agency/img/team/rprince.jpg",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/layouts/_fat_footer.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/assets/stylesheets/desktop.css.scss",
+		"/Users/dspoka/Code Projects/opuslogica.com/config/deploy.rb",
+		"/Users/dspoka/Code Projects/opuslogica.com/config/database.yml",
+		"/Users/dspoka/Code Projects/opuslogica.com/config.ru",
+		"/Users/dspoka/Code Projects/opuslogica.com/Capfile",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/site/contact.html.erb",
+		"/Users/dspoka/Code Projects/opuslogica.com/app/views/layouts/_page_header_image.html.erb",
+		"/Users/dspoka/Desktop/paral-lax/js/index.js",
+		"/Users/dspoka/Desktop/Project Bonnobo/bonnobo/protected/views/paper/view.php",
+		"/Users/dspoka/Desktop/kudos-please/css/style.css",
+		"/Users/dspoka/Downloads/side-sliding-menu-css/index.html",
+		"/Users/dspoka/Downloads/side-sliding-menu-css/css/style.css",
+		"/Users/dspoka/Library/Application Support/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/Users/dspoka/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/dspoka/Library/Application Support/Sublime Text 3/Packages/Terminal/Base File.sublime-settings",
+		"/Users/dspoka/Library/Application Support/Sublime Text 3/Packages/DocBlockr/Base File.sublime-settings",
+		"/Users/dspoka/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/dspoka/Library/Application Support/Sublime Text 3/Packages/User/CSS.sublime-settings",
+		"/Users/dspoka/Downloads/side-sliding-menu-css/license.txt",
+		"/Users/dspoka/Desktop/Web Starter Kit/app/scripts/main.js",
+		"/Users/dspoka/Sites/work-loc.sql",
+		"/Users/dspoka/Code Projects/graph_new_version/work-loc.sql",
+		"/Users/dspoka/Code Projects/graph_new_version/index.php",
+		"/Users/dspoka/Code Projects/graph_new_version/config.php",
+		"/Users/dspoka/graph_new_version/index.html~",
+		"/Users/dspoka/graph_new_version/index.php",
+		"/Users/dspoka/Bonnobo Files/xcode/GoFish/Podfile",
+		"/Users/dspoka/Downloads/demo/styles.css",
+		"/Users/dspoka/Downloads/demo/index.html",
+		"/Users/dspoka/Bonnobo Files/xcode/elevator",
+		"/Users/dspoka/Bonnobo Files/xcode/elevator2.v",
+		"/Users/dspoka/Bonnobo Files/xcode/elevator.v",
+		"/Users/dspoka/Bonnobo Files/xcode/evelvator2.v",
+		"/Users/dspoka/Downloads/iverilog-master/trial.v",
+		"/Users/dspoka/Bonnobo Files/xcode/DayNine/.git/COMMIT_EDITMSG",
+		"/Users/dspoka/Downloads/LIFXKit-develop/LIFXKit/Classes/LFXMessage.h",
+		"/Users/dspoka/Downloads/Day7/Day7/ViewController.h",
+		"/Users/dspoka/Downloads/Day7/Day7/ViewController.m",
+		"/Users/dspoka/Downloads/MapView 1/MapView/MVViewController.m",
+		"/Users/dspoka/words.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Library/Python/2.7/site-packages,<open folders>",
+			"/Library/Python/2.7/site-packages",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"users/new",
+			"15",
+			"78",
+			"birmin",
+			"words2",
+			"words1",
+			"wordnet",
+			"wn\\.",
+			"wn.",
+			"sutime",
+			"NGram",
+			"lemma",
+			"stem",
+			"lemma",
+			"wordnet",
+			"stem",
+			"stemm",
+			"stop",
+			"print",
+			"punct",
+			"lower",
+			"sentence",
+			"++",
+			"is_number",
+			"print",
+			":print",
+			":*\\n.*\\n",
+			":*/n.*/n",
+			":*\\n.*\\n",
+			":*/n.*/n",
+			"expression",
+			"regular",
+			"expression",
+			"regular",
+			".*\\n.*\\n",
+			"move",
+			"copy",
+			"copy_line",
+			"line",
+			"copy ",
+			"i ",
+			"][",
+			"print",
+			"book",
+			"bookmark",
+			"contract",
+			"contrac",
+			"def word_tokenize",
+			"word_tokenize",
+			"tokenize",
+			"peter",
+			"str",
+			"string",
+			"sys.arg",
+			"cluster",
+			"normalize",
+			"btn-xl",
+			"s",
+			"\"s\"",
+			"s ",
+			" s ",
+			"s ",
+			"color ",
+			"variables",
+			"variables.css",
+			"forest",
+			"body",
+			"color ",
+			"color",
+			"ds ",
+			"email",
+			"hover",
+			"NSLog",
+			"firstName",
+			"taran",
+			"z-index",
+			"delete",
+			"delete line",
+			"@",
+			"email",
+			"scrollBottom",
+			"scrolltop",
+			"scrollTop",
+			"scrollPage",
+			"sy",
+			"portfolio",
+			"services",
+			"console.",
+			"cbp",
+			"cbpAn",
+			"data",
+			"transition(color",
+			"http:",
+			"http",
+			"hhtp",
+			"css",
+			"shrink",
+			"services",
+			"shrink",
+			"top",
+			"map",
+			"frame",
+			"navbar-default",
+			"hover shrink",
+			"hover",
+			"border-color",
+			"-shrink",
+			"shrink",
+			"right",
+			".navbar-right",
+			"navbar-right",
+			"ul.nav.navbar",
+			"navbar-right",
+			"brand",
+			"link_to",
+			"navbar-brand",
+			"opus",
+			"scrollPage()",
+			"shrink",
+			".navbar-shrink",
+			"@media",
+			"222",
+			"map",
+			"cmap",
+			"map",
+			"rain",
+			"contact",
+			"style.css"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views/users/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1251,
+								1264
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1839,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1667,
+								1667
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views/assignments/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								438
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								454,
+								454
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/dspoka/Desktop/CS 290B/gradr/gradr-ui/app/assets/stylesheets/application.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346,
+								346
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "gradr.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"read",
+				"README.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 27.0,
+		"selected_items":
+		[
+			[
+				"",
+				"ALIGNED"
+			]
+		],
+		"width": 829.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
