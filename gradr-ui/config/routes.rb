@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'application#index'
 
-  resources :users, :course
+  resources :users, :courses, :assignments
   resource :sessions, only: [:new, :create, :destroy]
 
   # Match the GitHub route for now.
