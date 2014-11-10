@@ -1,0 +1,2 @@
+export GRADR_CLIENT_ID=563da1d9781cf49fb47f
+export GRADR_CLIENT_SECRET=37eb0a9aac7195e883a59fdae3e0c74bedf8bd9f
