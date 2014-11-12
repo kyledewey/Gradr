@@ -3,11 +3,7 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
+  # A users homepage
   def index
-     render
-  end
-
-  def logged_in?
-    !session[:user_id].nil?
   end
 end
