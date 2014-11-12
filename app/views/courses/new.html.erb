@@ -2,65 +2,50 @@
   Make a New Course
 </div>
 
-<%= form_tag courses_path, class: 'form-horizontal', role: 'form'     do %>
-<div class="vertically-centered-form">
-    <div class="form-group">
-      <%= label_tag :name, nil, class: 'col-sm-2 control-label' %>
-      <div class="col-sm-10">
-          <%= text_field_tag 'Name', nil, class: 'form-control' %>
-      </div>
-    </div>
+<%= form_for @course, html: { class: 'form-horizontal', role: 'form' } do |f| %>
 
     <div class="form-group">
-      <%= label_tag :start, nil, class: 'col-sm-2 control-label' %>
-      <div class="col-sm-10">
-            <div class='input-group date' id='datetimepicker1'>
-                <input type='text' class="form-control" />
-                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
-                </span>
-            </div>
-            
-      </div>
+        <%= f.label :name, class: 'col-sm-2 control-label' %>
+        <div class="col-sm-10">
+            <%= f.text_field :name, class: 'form-control' %>
+        </div>
     </div>
 
-     <div class="form-group">
-      <%= label_tag :end, nil, class: 'col-sm-2 control-label' %>
-      <div class="col-sm-10">
-            <div class='input-group date' id='datetimepicker1'>
-                <input type='text' class="form-control" />
-                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
-                </span>
-            </div>
-            
-      </div>
-    </div>
-  
-  <div class="form-group">
-      <%= label_tag :Website, nil, class: 'col-sm-2 control-label' %>
-      <div class="col-sm-10">
-          <%= text_field_tag 'Name', nil, class: 'form-control' %>
-      </div>
+    <div class="form-group">
+        <%= f.label :start, class: 'col-sm-2 control-label' %>
+        <div class="col-sm-10">
+            <%= f.text_field :start, class: 'form-control' %>
+        </div>
     </div>
 
-  <div class="form-group">
-      <%= label_tag :Description, nil, class: 'col-sm-2 control-label' %>
-      <div class="col-sm-10">
-          <%= text_area_tag 'Name', nil, rows:'3', class: 'form-control' %>
-      </div>
+    <div class="form-group">
+        <%= f.label :end, class: 'col-sm-2 control-label' %>
+        <div class="col-sm-10">
+            <%= f.text_field :end, class: 'form-control' %>
+        </div>
     </div>
 
-    
-    <div id="submit-button">
-        <%=submit_tag "Submit",  data: { confirm: "Are you sure?" }%>    
+    <div class="form-group">
+        <%= f.label :website, class: 'col-sm-2 control-label' %>
+        <div class="col-sm-10">
+            <%= f.password_field :website, class: 'form-control' %>
+        </div>
     </div>
 
-    <!--div id="submit-button">
-        <button type="button"  class="btn btn-default"  >Submit</button>   
-    </div> -->
-   
+    <div class="form-group">
+        <%= f.label :description, class: 'col-sm-2 control-label' %>
+        <div class="col-sm-10">
+            <%= f.password_field :description, class: 'form-control' %>
+        </div>
+    </div>
 
-</div>
+    <div class="form-group">
+        <div id="submit-button" class="col-sm-offset-2 col-sm-10">
+             <%= f.button "Register", class: 'btn btn-default' %>
+        </div>
+    </div>
 <% end %>
+
 
 
 <%# text_field_tag 'start', nil, class: 'form-control' %>

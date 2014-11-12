@@ -9,11 +9,26 @@ class CoursesController < ApplicationController
   end
 
   def create
-    flash[:notice] = "You have successfully created out."
+    #binding.pry
+    @course = Course.new(course_params)
+    @course.save
+    flash[:notice] = "You have successfully created a course."
   end
 
   # Logout
   def destroy
       session[:user_id] = nil
+  end
+
+
+private
+  def course_params
+    params.require(:course).permit(
+      :name,
+      :start,
+      :end,
+      :website,
+      :description,
+    )
   end
 end
