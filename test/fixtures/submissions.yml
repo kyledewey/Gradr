@@ -4,13 +4,8 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one:
-  id: 1
-  name: "Introduction to worst practices"
-  description: "Learn to hack the sickest web tech #buzzwords #hn #vc,
-                without ever having to learned anything of merit."
-  start_date: "10/10/10"
-  end_date: "10/10/11"
-
+one: {}
+# column: value
+#
 two: {}
 #  column: value

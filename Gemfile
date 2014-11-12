@@ -34,6 +34,8 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'rest-client'
 
+gem 'pg'
+
 group :development, :test do
   gem 'pry'
   gem 'pry-byebug'

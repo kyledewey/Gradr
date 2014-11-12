@@ -13,4 +13,8 @@ class User < ActiveRecord::Base
   def github_linked?
     User.access_token.non_blank?
   end
+
+  def courses
+    self.memberships.map(&:course)
+  end
 end

@@ -4,8 +4,18 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
+one:
+  course_id: 1
+  title: "Learning to scale with No.js"
+  number: 1
+  due_date: "10/10/12"
+  assignment_text: "Today we learn to scale with No.js, a powerful web technology."
 # column: value
 #
-two: {}
+two:
+  course_id: 1
+  title: "How to fail in production"
+  number: 2
+  due_date: "10/10/13"
+  assignment_text: "Today we examine how we crash as miserably as possible in production."
 #  column: value

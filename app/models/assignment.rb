@@ -1,3 +1,4 @@
 class Assignment < ActiveRecord::Base
-  has_many :commits
+  belongs_to :course
+  has_many :submissions
 end
