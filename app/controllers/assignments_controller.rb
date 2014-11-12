@@ -3,6 +3,10 @@ class AssignmentsController < ApplicationController
   def new
   end
 
+  def show
+    @assignment = Assignment.find(params[:id])
+  end
+
   def create
     raise "exception"
   end

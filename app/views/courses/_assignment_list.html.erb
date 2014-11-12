@@ -1,5 +1,6 @@
-<% @course.assignments.each do |course| %>
+<% @course.assignments.each do |assignment| %>
   <div class="assignment-entry">
-    An assignment!
+    <h4><small>Assignment <%= assignment.number %>: </small><%= link_to assignment.title, assignment_path(assignment) %></h4>
+    Due Date: <%= assignment.due_date %>
   </div>
 <% end %>
