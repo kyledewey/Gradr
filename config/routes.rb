@@ -6,4 +6,7 @@ Rails.application.routes.draw do
 
   # Match the GitHub route for now.
   get '/users/oauth_github/:step/:user_id', to: 'users#oauth_github_flow'
+  post '/courses/new', to: 'courses#create'
+  post '/assignments/new', to: 'assignments#create'
+  
 end
