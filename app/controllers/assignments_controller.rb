@@ -1,5 +1,8 @@
 class AssignmentsController < ApplicationController
-  # Login
+  def index
+    @courses = User.find(session[:user_id]).courses
+  end
+
   def new
   end
 

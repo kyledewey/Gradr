@@ -1,6 +1,8 @@
 class User < ActiveRecord::Base
   has_secure_password
   has_many :memberships
+  has_many :commits
+  has_many :builds
 
   # def self.authenticate(email, password)
   #   if user = User.find_by_email(email)
@@ -15,6 +17,7 @@ class User < ActiveRecord::Base
   end
 
   def courses
+    # FIXME: Not be bad
     self.memberships.map(&:course)
   end
 end

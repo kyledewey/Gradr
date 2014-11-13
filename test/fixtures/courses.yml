@@ -6,11 +6,22 @@
 #
 one:
   id: 1
-  name: "Introduction to worst practices"
+  title: "Introduction to worst practices"
   description: "Learn to hack the sickest web tech #buzzwords #hn #vc,
                 without ever having to learned anything of merit."
   start_date: "10/10/10"
   end_date: "10/10/11"
 
-two: {}
-#  column: value
+two:
+  id: 2
+  title: "NP Hard buissness scaling"
+  description: "Learn to scale faster than your favorite NP Hard algorithm's complexity"
+  start_date: "1/1/15"
+  end_date: "2/1/15"
+
+three:
+  id: 3
+  title: "Why spelling doesn't matter."
+  description: "Spelling well is hard"
+  start_date: "5/1/15"
+  end_date: "6/1/17"

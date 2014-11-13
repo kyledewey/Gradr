@@ -1,0 +1,7 @@
+<% Course.all.each do |course| %>
+  <div class="course-listing">
+    <h1><%= course.title %></h1>
+    <h3><%= course.description %></h3>
+    <%= link_to "Join this course!", new_membership_path + "?course_id=#{course.id}" %>
+  </div>
+<%end%>
