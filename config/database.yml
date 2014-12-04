@@ -7,6 +7,8 @@
 default: &default
   adapter: postgresql
   host: localhost
+  username: jroesch
+  password: password
 
 development:
   <<: *default
