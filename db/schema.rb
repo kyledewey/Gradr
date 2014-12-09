@@ -80,7 +80,6 @@ ActiveRecord::Schema.define(version: 20141209084419) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "access_token"
-    t.string   "git_project_name"
   end
 
 end
