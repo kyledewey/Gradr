@@ -56,6 +56,7 @@ GEM
     execjs (2.2.2)
     hike (1.2.3)
     i18n (0.6.11)
+    io-console (0.4.2)
     jbuilder (2.2.2)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
@@ -143,6 +144,7 @@ DEPENDENCIES
   better_errors
   bootstrap-sass (~> 3.2.0)
   coffee-rails (~> 4.0.0)
+  io-console
   jbuilder (~> 2.0)
   jquery-rails
   minitest
