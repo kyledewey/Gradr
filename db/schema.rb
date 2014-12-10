@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141209084419) do
+ActiveRecord::Schema.define(version: 20141210191701) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -45,6 +45,7 @@ ActiveRecord::Schema.define(version: 20141209084419) do
     t.datetime "updated_at"
     t.integer  "submission_id"
     t.string   "branch_name"
+    t.string   "clone_url"
   end
 
   create_table "courses", force: true do |t|
