@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'rb-readline'
 gem 'io-console'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
