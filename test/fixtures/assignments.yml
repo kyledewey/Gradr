@@ -10,6 +10,7 @@ one:
   number: 1
   due_date: "10/10/12"
   assignment_text: "Today we learn to scale with No.js, a powerful web technology."
+  git_project_name: "GradrBackend"
 # column: value
 #
 two:
@@ -18,4 +19,5 @@ two:
   number: 2
   due_date: "10/10/13"
   assignment_text: "Today we examine how we crash as miserably as possible in production."
+  git_project_name: "GradrBackend"
 #  column: value

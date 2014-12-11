@@ -10,6 +10,7 @@ one:
   last_name: "Roesch"
   email: "roeschinc@gmail.com"
   password_digest: "$2a$10$dlNPWlYe3tOfo6KD/bzhHuIela4pJYEZUvuBlOLZlug5so.bb8VdW"
+  github_username: "jroesch"
 
 # column: value
 #
@@ -17,6 +18,7 @@ two:
   id: 2
   first_name: "Kyle"
   last_name: "Dewey"
-  email: "kd@gmail.com"
+  email: "kyle.t.dewey@gmail.com"
   password_digest: "$2a$10$dlNPWlYe3tOfo6KD/bzhHuIela4pJYEZUvuBlOLZlug5so.bb8VdW"
+  github_username: "kyledewey"
 #  column: value
