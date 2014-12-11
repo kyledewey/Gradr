@@ -1,1 +1,14 @@
-Hello !!!
+<table border="1">
+  <tr>
+    <th>Build ID</th>
+    <th>Commit ID</th>
+    <th>Results</th>
+  </tr>
+  <% @builds.each do |build| %>
+    <tr>
+      <td><%= build.id %></td>
+      <td><%= build.commit_id %></td>
+      <td><%= build.printable_results %></td>
+    </tr>
+  <% end %>
+</table>

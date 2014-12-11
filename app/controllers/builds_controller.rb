@@ -1,6 +1,9 @@
 class BuildsController < ApplicationController
   def index
-    @builds = User.find(session[:user_id]).builds.sort
+    # @builds = User.find(session[:user_id]).builds.sort
+    # TODO: session doesn't hold a user_id, and this is a horrid hack
+    # on my end to get this plugged in
+    @builds = User.find(4).builds
   end
 
   def show
