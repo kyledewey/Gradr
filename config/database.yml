@@ -6,7 +6,7 @@
 #
 default: &default
   adapter: postgresql
-  host: localhost
+  host: postgresaws.cblx9rk1d5gu.us-east-1.rds.amazonaws.com
   username: jroesch
   password: password
 
