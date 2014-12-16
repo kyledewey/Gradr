@@ -1,14 +1,18 @@
-<table border="1">
+<table class="table table-striped">
   <tr>
     <th>Build ID</th>
     <th>Commit ID</th>
     <th>Results</th>
+    <th>Tests Passed</th>
+    <th>Tests Failed</th>  
   </tr>
   <% @builds.each do |build| %>
-    <tr>
+    <tr class=<%=build.results_pass%>>
       <td><%= build.id %></td>
       <td><%= build.commit_id %></td>
       <td><%= build.printable_results %></td>
+      <td> <%=build.results.scan(":true").length%> </td>
+      <td> <%=build.results.scan(":false").length%> </td>
     </tr>
   <% end %>
 </table>

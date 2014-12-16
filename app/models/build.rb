@@ -16,4 +16,11 @@ class Build < ActiveRecord::Base
       "INVALID STATUS: " + self.status
     end
   end
+  def results_pass
+    if(self.results.include? "false")
+      "danger"
+    else
+      "success"
+    end
+  end
 end
